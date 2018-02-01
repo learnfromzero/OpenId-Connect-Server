@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="log">
+    <insert id="saveLog" parameterClass="com.shaun.commons.entity.LogEntity">
+        INSERT INTO log
+        (userid,
+         module,
+         method,
+         ip,
+         aae036,
+         commit)
+        VALUES
+        (#userId#,
+         #module#,
+         #method#,
+         #ip#,
+         now(),
+         #commit#)
+    </insert>
+</sqlMap>

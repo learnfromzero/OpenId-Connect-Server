@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="oauth">
+    <typeAlias alias="OauthClientDetails" type="com.shaun.oauth2.entity.OauthClientDetails"/>
+
+
+    <select id="loadOauthClientDetails" resultClass="OauthClientDetails" parameterClass="java.util.HashMap">
+        select * from oauth_client_details where  client_id = #clientId#
+    </select>
+
+    <select id="loadAllOauthClientDetails" resultClass="OauthClientDetails">
+        select
+                client_id as clientId,
+                resource_ids as resourceIds,
+                client_secret as clientSecret,
+                scope as scope,
+                authorized_grant_types as authorizedGrantTypes,
+                web_server_redirect_uri as webServerRedirectUri,
+                authorities as authorities,
+                access_token_validity as accessTokenValidity,
+                refresh_token_validity as refreshTokenValidity,
+                additional_information as additionalInformation,
+                trusted as trusted,
+                autoapprove as autoApprove,
+                client_name as clientName,
+                create_time as createTime
+        from oauth_client_details
+        where archived='0'
+    </select>
+</sqlMap>

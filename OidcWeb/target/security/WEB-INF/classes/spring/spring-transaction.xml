@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置数据源的事物代理-->
+    <bean id="dataSourceProxy" class="org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy">
+        <!--将数据源bean交给DataSourceProxy代理-->
+        <property name="targetDataSource" ref="datasource"/>
+    </bean>
+
+    <!--数据源代理的事物控制器-->
+    <bean id="dataSourceProxyTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSourceProxy"/>
+    </bean>
+
+    <!--事物代理-->
+    <bean id="transactionProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
+         lazy-init="false" abstract="true">
+        <property name="transactionManager" ref="dataSourceProxyTransactionManager"/>
+        <property name="transactionAttributes">
+            <props>
+                <prop key="*">PROPAGATION_REQUIRED,-AppException,-PrcException,-IllegalArgumentException</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

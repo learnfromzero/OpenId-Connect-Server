@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="login">
+    <select id="queryByUserName" parameterClass="java.lang.String" resultClass="java.util.HashMap">
+        SELECT account,<!--用户名-->
+               password,<!--密码-->
+               id,
+                name
+          FROM USER
+         WHERE aae001='1'
+           AND account=#userName#
+    </select>
+
+    <select id="queryUserAccount" parameterClass="java.util.HashMap" resultClass="com.shaun.authorize.entity.UserAccount">
+        SELECT account userName,
+        name name,
+        id userId,
+        avatar,
+        phone,
+        email,
+        sex,
+        roleid roleId,
+        deptid deptId
+        FROM user
+        WHERE aae001 = '1'
+        <dynamic>
+            <isNotEmpty prepend="and" property="userId">
+                id = #userId#
+            </isNotEmpty>
+            <isNotEmpty prepend="and" property="username">
+                account = #username#
+            </isNotEmpty>
+        </dynamic>
+    </select>
+
+    <select id="queryBindUser" parameterClass="java.util.HashMap" resultClass="java.util.HashMap">
+        SELECT account,
+               password
+          FROM USER
+         WHERE aae001 = '1'
+           AND relativeuser = #thirdUserName#
+    </select>
+
+    <update id="saveBind" parameterClass="java.util.HashMap">
+        UPDATE USER
+           SET relativeuser = #xzUser#
+                ,isrelative = '1'
+         WHERE account = #username#
+    </update>
+
+    <select id="queryMenuByRoleId" parameterClass="java.lang.String" resultClass="java.util.HashMap">
+        SELECT
+                a.code AS id,
+                a.pcode AS pid,
+                a.name,
+                a.url,
+                a.isopen
+          FROM
+                menu a,
+                relation b
+         WHERE  a.id = b.menuid
+           AND  a.status = '1'
+           AND  b.roleid = #roleId#
+    </select>
+</sqlMap>

@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OidcWeb:war exploded" />
+      <artifact name="OidcWeb:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="802cddbd-8b47-4f84-9218-212234cb815e" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/security/target/" />
+    <ignored path="$PROJECT_DIR$/OidcWeb/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OauthServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OauthClientDetailsDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/dto/OauthClientDetailsDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="52" column="60" lean-forward="true" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/sqlmap/login.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authz-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/authz-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="76" column="66" lean-forward="true" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+              <folding>
+                <marker date="1517449830935" expanded="false" signature="3387:3404" ph="jdbc:mysql://localhost:3306/oauth?autoReconnect=true&amp;autoReconnectForPools=true&amp;useUnicode=true&amp;characterEncoding=utf8" />
+                <marker date="1517449830935" expanded="false" signature="3443:3465" ph="root" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OauthService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/OauthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OidcController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/controller/OidcController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_mng.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/oidc/client_mng.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1517455084061" expanded="true" signature="3154:3164" ph="..." />
+                <marker date="1517455084061" expanded="true" signature="3266:3276" ph="..." />
+                <marker date="1517455084061" expanded="true" signature="3376:3386" ph="..." />
+                <marker date="1517455084061" expanded="true" signature="3498:3508" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aspectj</find>
+      <find>SimpleCaptchaServlet</find>
+      <find>errorMsg</find>
+      <find>authenticationManager</find>
+      <find>ibatis</find>
+      <find>simplecapt</find>
+      <find>security</find>
+      <find>indexAction</find>
+      <find>welcomUser</find>
+      <find>user-menu</find>
+      <find>light-blue</find>
+      <find>yinhai</find>
+      <find>1.7</find>
+      <find>oauth/token</find>
+      <find>decryptJWT</find>
+      <find>queryUserAccount</find>
+      <find>jdbcTemplateMysql</find>
+      <find>client_mng</find>
+      <find>X-Frame-Options</find>
+      <find>icon-dashboard</find>
+      <find>class=&quot;row&quot;</find>
+      <find>OauthServiceImpl</find>
+      <find>Shengzhao</find>
+      <find>Shengzhao Li</find>
+      <find>loadOauthClientDetails</find>
+      <find>select * from oauth_client_details where  client_id</find>
+      <find>oauth_client_details</find>
+      <find>queryMenuByRoleId</find>
+      <find>mysqlDataSource</find>
+      <find>loadAllOauthClientDetails</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Map</replace>
+      <replace>SQLException</replace>
+      <replace>getSqlMapClientTemplate</replace>
+      <replace>DataAccessException</replace>
+      <replace>SqlException</replace>
+      <replace>sqlMapClient</replace>
+      <replace>this</replace>
+      <replace>31.141</replace>
+      <replace>localhost</replace>
+      <replace>shaun</replace>
+      <replace>Shaun_luo</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/security/src/main/java/com/shaun/commons/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/resources/inc.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/encrypt/service/JWTSigningAndValidationService.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/commons/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/ConnectTokenEnhancer.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/CustomJdbcClientDetailsService.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/DefaultOauthTokenServices.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/controller/Oauth2ResourceController.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/encrypt/service/impl/DefaultJWTEncryptionAndDecryptionService.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/encrypt/service/impl/DefaultJWTSigningAndValidationService.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/encrypt/JWKSetKeyStore.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/crypto-config.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/spring/springcfg/spring-log.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/CustomJdbcTokenStore.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/oauth_error.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/oauth_approval.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/controller/AuthorizeController.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/testToken.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/testToken.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/sqlmap/login.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/commons/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/authorize/service/impl/UserRegistImpl.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/oidc/client_msg.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/index.jsp" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/handler/OauthUserApprovalHandler.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/util/GuidGenerator.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/util/DateUtils.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/util/CacheConstants.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/entity/SOSAuthorizationCodeServices.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/OauthRepository.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthRepositoryJdbc.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/spring/spring-cfg-include.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/spring/springcfg/spring-oauth.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/spring-ibatis-cfg.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/spring/spring-ibatis.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/authz-config.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/sqlmap/oauth.xml" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/OauthService.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/entity/OauthClientDetails.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/entity/OauthClientDetailsRowMapper.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/dto/OauthClientDetailsDto.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/controller/OidcController.java" />
+        <option value="$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/oidc/client_mng.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.9\conf\settings-origion.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="encrypt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shaun" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="springcfg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="OidcWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="oidc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OidcServer" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OidcServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/project/TrustedEP-AgriculturalCredit" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="spring-se&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/resources/spring/spring-security.xml&#10;jdbc.p&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/resources/jdbc.properties&#10;test&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/webapp/testToken.jsp&#10;jdbc.proper&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/resources/jdbc.properties&#10;UserInfoServiceImpl&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/java/com/shaun/commons/service/impl/UserInfoServiceImpl.java&#10;OauthServ&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthServiceImpl.java&#10;DefaultJWTSigningAndValidationService&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/java/com/shaun/oauth2/encrypt/service/impl/DefaultJWTSigningAndValidationService.java&#10;JWKSetKeyStore&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/java/com/shaun/oauth2/encrypt/JWKSetKeyStore.java&#10;ClientDetailsService&#9;PSI&#9;JAVA://com.shaun.oauth2.service.impl.CustomJdbcClientDetailsService&#10;JWTSigningAndValidationService&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/java/com/shaun/oauth2/encrypt/service/JWTSigningAndValidationService.java&#10;spring-sec&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/src/main/resources/spring/spring-security.xml&#10;spring&#9;FILE&#9;file://E:/TestProject/OidcServer/OidcWeb/target/classes/spring-context.xml&#10;spr&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/spring/spring-security.xml&#10;Provider&#9;FILE&#9;jar://E:/maven/repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class&#10;providerMan&#9;FILE&#9;jar://E:/maven/repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class&#10;web&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/WEB-INF/web.xml&#10;spring-mvc&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/spring/spring-mvc.xml&#10;Sys&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/java/com/shaun/commons/util/SystemConfigUtil.java&#10;UserR&#9;PSI&#9;JAVA://com.shaun.authorize.service.impl.UserRegistImpl&#10;log4j&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/log4j.properties&#10;login.xml&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/ibatis/sqlmap/login.xml&#10;User&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/java/com/shaun/authorize/service/impl/UserRegistImpl.java&#10;spring-mv&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/spring/spring-mvc.xml&#10;index.jsp&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/WEB-INF/page/index.jsp&#10;indexC&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/java/com/shaun/commons/controller/IndexController.java&#10;login&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/resources/login/css/login.css&#10;log&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/login.jsp&#10;m&#9;FILE&#9;file://E:/TestProject/mavenDemo/pom.xml&#10;login.jsp&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/login.jsp&#10;init.css&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/resources/css/init.css&#10;logi&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/ibatis/sqlmap/login.xml&#10;jd&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/jdbc.properties&#10;lo&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/login.jsp&#10;index&#9;PSI&#9;JAVA://com.shaun.commons.controller.IndexController&#10;web.&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/webapp/WEB-INF/web.xml&#10;spring-i&#9;FILE&#9;file://E:/TestProject/mavenDemo/security/src/main/resources/spring/spring-ibatis.xml" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TestProject\OidcServer\OidcWeb\src\main\resources\ibatis\sqlmap" />
+      <recent name="E:\TestProject\OidcServer\OidcWeb\src\main\resources\spring\springcfg" />
+      <recent name="E:\TestProject\OidcServer\OidcWeb\src\main\webapp\WEB-INF\page" />
+      <recent name="E:\TestProject\OidcServer\OidcWeb\src\main\resources" />
+      <recent name="E:\TestProject\OidcServer\OidcWeb\src\main\java\com\shaun" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shaun.commons.service.impl" />
+      <recent name="com.shaun.commons.service" />
+      <recent name="com.shaun.commons.util" />
+      <recent name="com.shaun.commons.filter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TestProject\OidcServer\OidcWeb\src\main\webapp" />
+      <recent name="E:\TestProject\mavenDemo\security\src\main\webapp\resources" />
+      <recent name="E:\TestProject\mavenDemo\security\src\main\webapp" />
+      <recent name="E:\TestProject\mavenDemo\security\src\main\resources" />
+      <recent name="E:\TestProject\mavenDemo\security\src\main\resources\spring" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.oidc">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="security" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="oidc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-XX:PermSize=256m -XX:MaxPermSize=512m -Xms256m -Xmx512m" />
+      <deployment>
+        <artifact name="OidcWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/oidc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mavenDemo" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51350" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="OidcWeb:war exploded" />
+          <artifact name="OidcWeb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="802cddbd-8b47-4f84-9218-212234cb815e" name="Default" comment="" />
+      <created>1504505852129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504505852129</updated>
+      <workItem from="1504505858072" duration="1816000" />
+      <workItem from="1504507724769" duration="4527000" />
+      <workItem from="1504533881027" duration="274000" />
+      <workItem from="1504572826471" duration="37872000" />
+      <workItem from="1504747370578" duration="19875000" />
+      <workItem from="1504832601052" duration="16416000" />
+      <workItem from="1505028166481" duration="4358000" />
+      <workItem from="1505051867089" duration="3585000" />
+      <workItem from="1505093040305" duration="19772000" />
+      <workItem from="1505137105966" duration="450000" />
+      <workItem from="1505137719326" duration="4502000" />
+      <workItem from="1505198804067" duration="5634000" />
+      <workItem from="1505369135668" duration="700000" />
+      <workItem from="1505379110621" duration="1308000" />
+      <workItem from="1505438204725" duration="720000" />
+      <workItem from="1505441821726" duration="10738000" />
+      <workItem from="1505614817125" duration="1300000" />
+      <workItem from="1505713050635" duration="8655000" />
+      <workItem from="1505783360017" duration="9013000" />
+      <workItem from="1505869647112" duration="5551000" />
+      <workItem from="1505918653225" duration="96000" />
+      <workItem from="1505956775446" duration="10187000" />
+      <workItem from="1506042719286" duration="16860000" />
+      <workItem from="1506301394350" duration="17185000" />
+      <workItem from="1506388197262" duration="14969000" />
+      <workItem from="1506475393922" duration="3110000" />
+      <workItem from="1506497938475" duration="8507000" />
+      <workItem from="1506562636632" duration="4449000" />
+      <workItem from="1507513971367" duration="949000" />
+      <workItem from="1507516655188" duration="4904000" />
+      <workItem from="1507538942466" duration="2345000" />
+      <workItem from="1507618449128" duration="1519000" />
+      <workItem from="1507623993363" duration="1472000" />
+      <workItem from="1508117104071" duration="882000" />
+      <workItem from="1508229745221" duration="614000" />
+      <workItem from="1508390813666" duration="5904000" />
+      <workItem from="1508737967601" duration="2257000" />
+      <workItem from="1509429939422" duration="5210000" />
+      <workItem from="1509454302140" duration="2757000" />
+      <workItem from="1509498915260" duration="20388000" />
+      <workItem from="1509586086207" duration="7326000" />
+      <workItem from="1509630306996" duration="39000" />
+      <workItem from="1509671640693" duration="613000" />
+      <workItem from="1510150312615" duration="1467000" />
+      <workItem from="1510554674624" duration="2946000" />
+      <workItem from="1510881517032" duration="1398000" />
+      <workItem from="1510884343538" duration="6939000" />
+      <workItem from="1511168966926" duration="746000" />
+      <workItem from="1511227714457" duration="16541000" />
+      <workItem from="1511271631303" duration="668000" />
+      <workItem from="1511511010766" duration="4611000" />
+      <workItem from="1511745563226" duration="619000" />
+      <workItem from="1511833653351" duration="9145000" />
+      <workItem from="1511850356908" duration="5500000" />
+      <workItem from="1511918293095" duration="144000" />
+      <workItem from="1511926937660" duration="4172000" />
+      <workItem from="1512463850478" duration="2398000" />
+      <workItem from="1512629941945" duration="1304000" />
+      <workItem from="1512695507950" duration="161000" />
+      <workItem from="1513303005229" duration="6365000" />
+      <workItem from="1514359849943" duration="665000" />
+      <workItem from="1514424581494" duration="5413000" />
+      <workItem from="1515591749696" duration="4493000" />
+      <workItem from="1515680164022" duration="634000" />
+      <workItem from="1516760242185" duration="6025000" />
+      <workItem from="1516805535672" duration="5000" />
+      <workItem from="1516843054488" duration="16000" />
+      <workItem from="1516935529595" duration="3464000" />
+      <workItem from="1517099363703" duration="813000" />
+      <workItem from="1517100277147" duration="1809000" />
+      <workItem from="1517102188198" duration="8173000" />
+      <workItem from="1517188883540" duration="58000" />
+      <workItem from="1517361677989" duration="21183000" />
+      <workItem from="1517407757050" duration="5415000" />
+      <workItem from="1517447809567" duration="7896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="420794000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4859967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38714993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29954615" sideWeight="0.48076922" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5192308" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar!/org/springframework/security/authentication/encoding/MessageDigestPasswordEncoder.class</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security/src/main/java/com/shaun/commons/filter/MyAccessDecisionManager.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security/src/main/java/com/shaun/commons/util/HttpRequestor.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security/src/main/java/com/shaun/test/TestAction.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/CustomJdbcClientDetailsService.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/client/JdbcClientDetailsService.class</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenGranter.class</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/ConnectTokenEnhancer.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/DefaultOauthTokenServices.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/ConnectTokenEnhancer.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/ConnectTokenEnhancer.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/approval/TokenStoreUserApprovalHandler.class</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JdbcTokenStore.class</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthServiceImpl.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthServiceImpl.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/handler/OauthUserApprovalHandler.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="170" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/webapp/resources/assets/css/font-awesome-ie7.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="255" column="1" lean-forward="true" selection-start-line="255" selection-start-column="1" selection-end-line="255" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="213" column="32" lean-forward="false" selection-start-line="213" selection-start-column="32" selection-end-line="213" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/token/TokenEnhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/ClientDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/util/GuidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <marker date="1517409111509" expanded="false" signature="453:464" ph=" { " />
+            <marker date="1517409111509" expanded="false" signature="520:526" ph=" }" />
+            <marker date="1517409111509" expanded="false" signature="576:587" ph=" { " />
+            <marker date="1517409111509" expanded="false" signature="634:640" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/util/CacheConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/entity/SOSAuthorizationCodeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <marker date="1517409112028" expanded="false" signature="608:619" ph=" { " />
+            <marker date="1517409112028" expanded="false" signature="637:643" ph=" }" />
+            <marker date="1517409112028" expanded="false" signature="798:809" ph=" { " />
+            <marker date="1517409112028" expanded="false" signature="843:849" ph=" }" />
+            <marker date="1517409112028" expanded="false" signature="981:992" ph=" { " />
+            <marker date="1517409112028" expanded="false" signature="1018:1024" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/spring/springcfg/spring-log.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/commons/service/impl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/spring-ibatis-cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/oauth_approval.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/token/TokenStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="209" column="39" lean-forward="true" selection-start-line="209" selection-start-column="39" selection-end-line="209" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/AuthorizationRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/DefaultOauthTokenServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/ConnectTokenEnhancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="113" column="48" lean-forward="false" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/controller/AuthorizeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/spring/spring-cfg-include.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/spring/spring-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="n#value#0;n#property#0;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#value#0;n#property#1;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#value#0;n#property#2;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#value#0;n#property#3;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#value#0;n#property#4;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#value#0;n#property#5;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#value#0;n#property#6;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/sqlmap/log.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/authorize/service/impl/UserRegistImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/OauthRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthRepositoryJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <marker date="1517409111608" expanded="true" signature="955:1010" ph="select * fro... oauth_client_details" />
+            <marker date="1517409111608" expanded="true" signature="1316:1376" ph="select * fro... oauth_client_details" />
+            <marker date="1517409111608" expanded="true" signature="1595:1677" ph="select * fro... oauth_client_details" />
+            <marker date="1517409111608" expanded="true" signature="1983:2047" ph="update oauth... " />
+            <marker date="1517409111608" expanded="true" signature="2245:2523" ph="insert into oauth_client_details... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/commons/service/impl/BaseDaoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/client/JdbcClientDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <marker date="1503973045974" expanded="true" signature="3716:3970" ph="update oauth... " />
+            <marker date="1503973045974" expanded="true" signature="4429:4481" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/approval/TokenStoreUserApprovalHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/spring/spring-ibatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/spring/spring-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="70" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/CustomJdbcClientDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/handler/OauthUserApprovalHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JdbcTokenStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <marker date="1503973045974" expanded="true" signature="3648:3797" ph="insert into oauth_access_token... " />
+            <marker date="1503973045974" expanded="true" signature="3843:3908" ph="select token... oauth_access_token" />
+            <marker date="1503973045974" expanded="true" signature="3968:4042" ph="select token... oauth_access_token" />
+            <marker date="1503973045974" expanded="true" signature="4106:4180" ph="select token... oauth_access_token" />
+            <marker date="1503973045974" expanded="true" signature="4250:4334" ph="select token... oauth_access_token" />
+            <marker date="1503973045974" expanded="true" signature="4393:4459" ph="select token... oauth_access_token" />
+            <marker date="1503973045974" expanded="true" signature="4518:4584" ph="select token... oauth_access_token" />
+            <marker date="1503973045974" expanded="true" signature="4630:4679" ph="delete from " />
+            <marker date="1503973045974" expanded="true" signature="4726:4808" ph="insert into oauth_refresh_token... " />
+            <marker date="1503973045974" expanded="true" signature="4855:4921" ph="select token... oauth_refresh_token" />
+            <marker date="1503973045974" expanded="true" signature="4982:5057" ph="select token... oauth_refresh_token" />
+            <marker date="1503973045974" expanded="true" signature="5104:5154" ph="delete from " />
+            <marker date="1503973045974" expanded="true" signature="5216:5270" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/spring/springcfg/spring-oauth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/sqlmap/login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/authz-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="76" column="66" lean-forward="true" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+          <folding>
+            <marker date="1517449830935" expanded="false" signature="3387:3404" ph="jdbc:mysql://localhost:3306/oauth?autoReconnect=true&amp;autoReconnectForPools=true&amp;useUnicode=true&amp;characterEncoding=utf8" />
+            <marker date="1517449830935" expanded="false" signature="3443:3465" ph="root" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/OauthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="340" column="31" lean-forward="false" selection-start-line="340" selection-start-column="31" selection-end-line="340" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="134" column="19" lean-forward="false" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/util/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#603#604#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/dto/OauthClientDetailsDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="52" column="60" lean-forward="true" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/controller/OidcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/entity/OauthClientDetailsRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/entity/OauthClientDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5907#5908#0" expanded="true" />
+            <element signature="e#5946#5947#0" expanded="true" />
+            <element signature="e#5981#5982#0" expanded="true" />
+            <element signature="e#6014#6015#0" expanded="true" />
+            <element signature="e#6064#6065#0" expanded="true" />
+            <element signature="e#6108#6109#0" expanded="true" />
+            <element signature="e#6143#6144#0" expanded="true" />
+            <element signature="e#6174#6175#0" expanded="true" />
+            <element signature="e#6223#6224#0" expanded="true" />
+            <element signature="e#6263#6264#0" expanded="true" />
+            <element signature="e#6298#6299#0" expanded="true" />
+            <element signature="e#6329#6330#0" expanded="true" />
+            <element signature="e#6377#6378#0" expanded="true" />
+            <element signature="e#6417#6418#0" expanded="true" />
+            <element signature="e#6455#6456#0" expanded="true" />
+            <element signature="e#6489#6490#0" expanded="true" />
+            <element signature="e#6543#6544#0" expanded="true" />
+            <element signature="e#6589#6590#0" expanded="true" />
+            <element signature="e#6628#6629#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#6719#6720#0" expanded="true" />
+            <element signature="e#6767#6768#0" expanded="true" />
+            <element signature="e#6799#6800#0" expanded="true" />
+            <element signature="e#6827#6828#0" expanded="true" />
+            <element signature="e#6869#6870#0" expanded="true" />
+            <element signature="e#6903#6904#0" expanded="true" />
+            <element signature="e#6950#6951#0" expanded="true" />
+            <element signature="e#6993#6994#0" expanded="true" />
+            <element signature="e#7176#7177#0" expanded="true" />
+            <element signature="e#7219#7220#0" expanded="true" />
+            <element signature="e#7393#7394#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7481#7482#0" expanded="true" />
+            <element signature="e#7527#7528#0" expanded="true" />
+            <element signature="e#7574#7575#0" expanded="true" />
+            <element signature="e#7616#7617#0" expanded="true" />
+            <element signature="e#7687#7688#0" expanded="true" />
+            <element signature="e#7749#7750#0" expanded="true" />
+            <element signature="e#7797#7798#0" expanded="true" />
+            <element signature="e#7840#7841#0" expanded="true" />
+            <element signature="e#8025#8026#0" expanded="true" />
+            <element signature="e#8069#8070#0" expanded="true" />
+            <element signature="e#8243#8244#0" expanded="true" />
+            <element signature="e#8273#8274#0" expanded="true" />
+            <element signature="e#8320#8321#0" expanded="true" />
+            <element signature="e#8358#8359#0" expanded="true" />
+            <element signature="e#8396#8397#0" expanded="true" />
+            <element signature="e#8430#8431#0" expanded="true" />
+            <element signature="e#8484#8485#0" expanded="true" />
+            <element signature="e#8530#8531#0" expanded="true" />
+            <element signature="e#8567#8568#0" expanded="true" />
+            <element signature="e#8600#8601#0" expanded="true" />
+            <element signature="e#8652#8653#0" expanded="true" />
+            <element signature="e#8696#8697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/resources/ibatis/sqlmap/oauth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="79" lean-forward="false" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/java/com/shaun/oauth2/service/impl/OauthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OidcWeb/src/main/webapp/WEB-INF/page/oidc/client_mng.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1517455084061" expanded="true" signature="3154:3164" ph="..." />
+            <marker date="1517455084061" expanded="true" signature="3266:3276" ph="..." />
+            <marker date="1517455084061" expanded="true" signature="3376:3386" ph="..." />
+            <marker date="1517455084061" expanded="true" signature="3498:3508" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>OidcWeb:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>OidcServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:3.8.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

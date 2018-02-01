@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:beans xmlns="http://www.springframework.org/schema/security"
+         xmlns:b="http://www.springframework.org/schema/beans"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:mvc="http://www.springframework.org/schema/mvc"
+         xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+                        http://www.springframework.org/schema/security
+                        http://www.springframework.org/schema/security/spring-security-4.0.xsd  http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+
+    <http pattern="/resources/**" security="none"/>
+    <http pattern="/login.jsp" security="none"/>
+    <http pattern="/login/**" security="none"/>
+    <http pattern="/pushData.do" security="none"/>
+    <http pattern="/simplecapt" security="none"/>
+    <http pattern="/wechat" security="none"/>
+    <!--Oauth2获取token开始-->
+    <!--
+     OAuth2 URL: /oauth/token   的处理与配置
+     一般使用时这里不需要修改, 直接使用即可,如果不配置，调用/oauth/token时获取的princple为用户密码的princple
+    -->
+    <http pattern="/oauth/token" create-session="stateless" authentication-manager-ref="oauth2AuthenticationManager"
+          entry-point-ref="oauth2AuthenticationEntryPoint" use-expressions="false">
+        <intercept-url pattern="/oauth/token" access="IS_AUTHENTICATED_FULLY"/>
+        <anonymous enabled="false"/>
+        <http-basic entry-point-ref="oauth2AuthenticationEntryPoint"/>
+
+        <custom-filter ref="clientCredentialsTokenEndpointFilter" before="BASIC_AUTH_FILTER"/>
+        <access-denied-handler ref="oauth2AccessDeniedHandler"/>
+        <csrf disabled="true"/>
+    </http>
+    <http use-expressions="true" entry-point-ref="myAuthenticationEntryPoint">
+        <headers>
+            <!--关闭iframe验证-->
+            <frame-options disabled="true"></frame-options>
+        </headers>
+        <intercept-url pattern="/**" access="isAuthenticated()"/>
+        <csrf disabled="true"/>
+        <!--<form-login login-page="/login.jsp"  username-parameter="username"-->
+                    <!--password-parameter="password"  authentication-failure-url="/login.jsp?error=1" />-->
+        <custom-filter ref="myAuthenticationFilter" position="FORM_LOGIN_FILTER" />
+        <!--<custom-filter ref="myFilter" before="FILTER_SECURITY_INTERCEPTOR" />-->
+        <logout invalidate-session="true" logout-url="/logout" delete-cookies="	JSESSIONID" logout-success-url="/login.jsp"></logout>
+    </http>
+
+    <!-- 未登录的切入点 -->
+    <b:bean id="myAuthenticationEntryPoint" class="org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint">
+        <b:constructor-arg name="loginFormUrl" value="/login.jsp"></b:constructor-arg>
+    </b:bean>
+
+    <!-- 登录验证器：用户有没有登录的资格 --><!-- 这个就是重写的认证过滤器 -->
+    <b:bean id="myAuthenticationFilter" class="com.shaun.authorize.filter.MyAuthenticationFilter">
+        <b:property name="authenticationManager" ref="authenticationManager" />
+        <b:property name="filterProcessesUrl" value="/j_spring_security_check" />
+        <b:property name="authenticationSuccessHandler" ref="MyAuthenticationSuccessHandler">
+        </b:property>
+        <b:property name="authenticationFailureHandler">
+            <b:bean class="org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler">
+                <b:property name="defaultFailureUrl" value="/login.jsp" />
+            </b:bean>
+        </b:property>
+    </b:bean>
+
+    <b:bean id="MyAuthenticationSuccessHandler" class="com.shaun.authorize.handle.MyAuthenticationSuccessHandler">
+        <b:property name="userRegist" ref="UserRegist"/>
+        <b:property name="defaultTargetUrl" value="/indexAction.do" />
+    </b:bean>
+    <!--<b:bean id="myFilter"
+            class="com.shaun.commons.filter.MyFilterSecurityInterceptor">
+        <b:property name="authenticationManager" ref="authenticationManager" />
+        <b:property name="accessDecisionManager" ref="myAccessDecisionManagerBean" />
+        <b:property name="securityMetadataSource" ref="securityMetadataSource" />
+    </b:bean>-->
+    <authentication-manager alias="authenticationManager">
+        <authentication-provider user-service-ref="MyUserDetailsService">
+            <password-encoder ref="md5Encoder"></password-encoder>
+        </authentication-provider>
+    </authentication-manager>
+
+    <b:bean id="md5Encoder" class="com.shaun.commons.util.Md5SecurityPasswordEncoder"></b:bean>
+
+    <b:bean id="UserRegist" parent="transactionProxy">
+        <b:property name="target">
+            <b:bean class="com.shaun.authorize.service.impl.UserRegistImpl"
+                    parent="baseDaoService"></b:bean>
+        </b:property>
+    </b:bean>
+    <!---->
+    <b:bean id="MyUserDetailsService" parent="transactionProxy">
+        <b:property name="target">
+            <b:bean class="com.shaun.authorize.service.impl.MyUserDetailServiceImpl"
+                    parent="baseDaoService"></b:bean>
+        </b:property>
+    </b:bean>
+
+    <!--访问决策器，决定某个用户具有的角色，是否有足够的权限去访问某个资源 -->
+    <b:bean id="myAccessDecisionManagerBean"
+            class="com.shaun.commons.filter.MyAccessDecisionManager"/>
+
+    <!--资源源数据定义，将所有的资源和权限对应关系建立起来，即定义某一资源可以被哪些角色访问 -->
+    <b:bean id="securityMetadataSource"
+            class="com.shaun.commons.filter.MyInvocationSecurityMetadataSource" />
+
+
+    <b:bean id="oauth2ClientDetailsUserService"
+                class="org.springframework.security.oauth2.provider.client.ClientDetailsUserDetailsService">
+        <b:constructor-arg ref="clientDetailsService"/>
+    </b:bean>
+
+    <!--oauth2的认证管理器，使用client_id,client_secret创建princple-->
+    <authentication-manager id="oauth2AuthenticationManager">
+        <authentication-provider user-service-ref="oauth2ClientDetailsUserService"/>
+    </authentication-manager>
+
+    <b:bean id="clientCredentialsTokenEndpointFilter" class="org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter">
+        <b:property name="authenticationManager" ref="oauth2AuthenticationManager"></b:property>
+    </b:bean>
+
+
+    <b:bean id="oauth2AccessDeniedHandler"
+                class="org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler"/>
+
+</b:beans>

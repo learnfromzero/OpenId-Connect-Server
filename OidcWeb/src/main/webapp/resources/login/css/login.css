@@ -1,0 +1,79 @@
+.bgd_container{
+    margin: 0 auto;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/login_bak.jpg");
+    background-size: 100%;
+}
+.bgd_container form{
+    width: 500px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    list-style-type: none;
+}
+.logContainer{
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 15px;
+}
+.logContainer li{
+    list-style-type: none;
+    position:relative;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.logContainer .inputBox{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+}
+.logContainer .checkCodeBox{
+    width: 280px;
+    height: 40px;
+    vertical-align: middle;/*input框和img水平对齐*/
+}
+.logContainer .checkCodeImg{
+    width: 115px;
+    height: 40px;
+    vertical-align: middle;
+}
+.logContainer .error_msg{
+    color: red;
+}
+.logContainer .logBtn{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #3395ff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.logContainer .line{
+    text-align: left;
+    padding-left: 48px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.logContainer .thirdLogin{
+    text-align: left;
+    padding-left: 48px;
+}
+.logContainer .thirdLogin input{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border:0;
+    background-color: #3395ff;
+    cursor: pointer;
+    margin:0 5px 0 0;
+}

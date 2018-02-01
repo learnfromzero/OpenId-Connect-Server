@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OidcWeb:war">
+    <output-path>$PROJECT_DIR$/OidcWeb/target</output-path>
+    <root id="archive" name="security.war">
+      <element id="artifact" artifact-name="OidcWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

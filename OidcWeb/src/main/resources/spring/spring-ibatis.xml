@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--通过spring创建sqlMapClient对象，传统方式是通过SqlMapClientBuilder.spring通过
+    -->
+    <bean id="sqlMapClient" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
+        <property name="configLocations">
+            <list>
+                <value>classpath:ibatis/spring-ibatis-cfg.xml</value>
+            </list>
+        </property>
+        <property name="dataSource">
+            <ref bean="dataSourceProxy"/>
+        </property>
+    </bean>
+    <bean id="sqlExcutor" class="com.ibatis.sqlmap.engine.execution.SqlExecutor">
+    </bean>
+
+    <bean id="baseDao" class="com.shaun.commons.dao.IDao">
+        <property name="SqlMapClientTemplate"><ref bean="sqlMapClientTemplate"/></property>
+    </bean>
+    <bean id="sqlMapClientTemplate" class="org.springframework.orm.ibatis.SqlMapClientTemplate">
+        <property name="sqlMapClient" ref="sqlMapClient"></property>
+    </bean>
+
+    <bean id="baseDaoService" class="com.shaun.commons.service.impl.BaseDaoServiceImpl">
+        <property name="appDao">
+            <ref bean="baseDao"/>
+        </property>
+    </bean>
+
+    <bean id="baseService" class="com.shaun.commons.service.BaseService">
+        <property name="dao" ref="baseDao">
+        </property>
+    </bean>
+</beans>

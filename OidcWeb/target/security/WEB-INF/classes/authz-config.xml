@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:oauth="http://www.springframework.org/schema/security/oauth2"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+	    http://www.springframework.org/schema/security/oauth2 http://www.springframework.org/schema/security/spring-security-oauth2-2.0.xsd">
+
+
+	<oauth:authorization-server client-details-service-ref="clientDetailsService"
+								token-services-ref="defaultOauthTokenServices"
+								user-approval-handler-ref="oauthUserApprovalHandler"
+								user-approval-page="oauth_approval"
+								error-page="oauth_error">
+		<oauth:authorization-code authorization-code-services-ref="jdbcAuthorizationCodeServices"/>
+		<oauth:implicit/>
+		<oauth:refresh-token/>
+		<oauth:client-credentials/>
+		<oauth:password/>
+	</oauth:authorization-server>
+
+	<!--
+        每一个资源(resource)的定义, resource-id必须唯一, OauthClientDetails中的resourceIds属性的值由此来的,
+        允许一个Client有多个resource-id, 由逗号(,)分隔
+        每一个定义会在Security Flow中添加一个位于 PRE_AUTH_FILTER 之前的Filter
+    -->
+	<oauth:resource-server id="resourceServerFilter" resource-id="myresource" token-services-ref="tokenServices"/>
+
+	<bean id="clientDetailsService" class="com.shaun.oauth2.service.impl.CustomJdbcClientDetailsService">
+		<constructor-arg index="0" ref="datasource"/>
+	</bean>
+
+	<bean id="jdbcAuthorizationCodeServices"
+				class="com.shaun.oauth2.entity.SOSAuthorizationCodeServices">
+		<constructor-arg index="0" ref="datasource"/>
+	</bean>
+
+	<bean id="tokenStore" class="com.shaun.oauth2.service.impl.CustomJdbcTokenStore">
+		<constructor-arg index="0" ref="datasource"/>
+	</bean>
+
+	<bean class="org.springframework.security.oauth2.provider.request.DefaultOAuth2RequestFactory"
+				id="oAuth2RequestFactory">
+		<constructor-arg name="clientDetailsService" ref="clientDetailsService"/>
+	</bean>
+
+	<bean id="defaultOauthTokenServices" class="com.shaun.oauth2.service.impl.DefaultOauthTokenServices">
+		<property name="tokenStore" ref="tokenStore"/>
+		<property name="clientDetailsService" ref="clientDetailsService"/>
+		<property name="supportRefreshToken" value="true"/>
+	</bean>
+
+	<bean id="tokenServices" class="org.springframework.security.oauth2.provider.token.DefaultTokenServices">
+		<property name="tokenStore" ref="tokenStore"/>
+		<property name="clientDetailsService" ref="clientDetailsService"/>
+		<property name="supportRefreshToken" value="true"/>
+	</bean>
+
+	<bean id="oauthUserApprovalHandler" class="com.shaun.oauth2.handler.OauthUserApprovalHandler">
+		<property name="tokenStore" ref="tokenStore"/>
+		<property name="clientDetailsService" ref="clientDetailsService"/>
+		<property name="requestFactory" ref="oAuth2RequestFactory"/>
+		<property name="oauthService" ref="oauthService"/>
+	</bean>
+
+	<bean id="oauthAccessDeniedHandler" class="org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler" />
+
+
+	<bean id="jdbcTemplateMysql" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="datasource"/>
+	</bean>
+
+	<!--<bean id="mysqlDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.oauth.driverClassName}"/>
+		<property name="url" value="${jdbc.oauth.url}"/>
+		<property name="username" value="${jdbc.oauth.username}"/>
+		<property name="password" value="${jdbc.oauth.password}"/>
+
+		<property name="validationQuery" value="SELECT 1"/>
+		<property name="testOnReturn" value="false"/>
+		<property name="testOnBorrow" value="true"/>
+		&lt;!&ndash;Based on 100 connected user &ndash;&gt;
+		<property name="maxActive" value="20"/>
+		<property name="maxIdle" value="5"/>
+	</bean>-->
+
+	<bean id="oauth2AuthenticationEntryPoint"
+				class="org.springframework.security.oauth2.provider.error.OAuth2AuthenticationEntryPoint"/>
+
+	<bean id="oauth2AccessDecisionManager" class="org.springframework.security.access.vote.UnanimousBased">
+		<constructor-arg>
+			<list>
+				<bean class="org.springframework.security.oauth2.provider.vote.ScopeVoter"/>
+				<bean class="org.springframework.security.access.vote.RoleVoter"/>
+				<bean class="org.springframework.security.access.vote.AuthenticatedVoter"/>
+			</list>
+		</constructor-arg>
+	</bean>
+
+</beans>

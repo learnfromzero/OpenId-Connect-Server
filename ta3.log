@@ -1,0 +1,8 @@
+2017-12-15 10:12:32,819 DEBUG [java.sql.Connection] - <{conn-100000} Connection>
+2017-12-15 10:12:32,824 DEBUG [java.sql.Connection] - <{conn-100000} Preparing Statement:          SELECT account,                password,                id,                 name           FROM USER          WHERE aae001='1'            AND account=?     >
+2017-12-15 10:12:32,851 DEBUG [java.sql.PreparedStatement] - <{pstm-100001} Executing Statement:          SELECT account,                password,                id,                 name           FROM USER          WHERE aae001='1'            AND account=?     >
+2017-12-15 10:12:32,852 DEBUG [java.sql.PreparedStatement] - <{pstm-100001} Parameters: [admin]>
+2017-12-15 10:12:32,852 DEBUG [java.sql.PreparedStatement] - <{pstm-100001} Types: [java.lang.String]>
+2017-12-15 10:12:32,858 DEBUG [java.sql.ResultSet] - <{rset-100002} ResultSet>
+2017-12-15 10:12:32,870 DEBUG [java.sql.ResultSet] - <{rset-100002} Header: [account, password, id, name]>
+2017-12-15 10:12:32,870 DEBUG [java.sql.ResultSet] - <{rset-100002} Result: [admin, VsyrVxgJ2Dug56qt1Jn33g==, 1, 张三]>
